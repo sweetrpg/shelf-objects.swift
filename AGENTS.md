@@ -5,7 +5,7 @@ working in this repository.
 
 ## About This Project
 
-`shelf-objects.swift` defines the persistence models and API value objects for the Shelf microservice's domain: library, wishlist, table, visibility. Currently a scaffold with no implementation—no Swift consumer exists today, and domain models are not yet implemented.
+`game-room-objects.swift` defines the persistence models and API value objects for the Game Room microservice's domain: library, wishlist, table, visibility. Currently a scaffold with no implementation—no Swift consumer exists today, and domain models are not yet implemented.
 
 ## Committing Code
 
