@@ -2,26 +2,26 @@
 import PackageDescription
 
 let package = Package(
-    name: "ShelfObjects",
+    name: "GameRoomObjects",
     platforms: [.macOS(.v13)],
     products: [
         .library(
-            name: "ShelfObjects",
-            targets: ["ShelfObjects"]),
+            name: "GameRoomObjects",
+            targets: ["GameRoomObjects"]),
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-distributed-tracing.git", from: "1.0.0"),
     ],
     targets: [
         .target(
-            name: "ShelfObjects",
+            name: "GameRoomObjects",
             dependencies: [
                 .product(name: "Tracing", package: "swift-distributed-tracing"),
             ]
         ),
         .testTarget(
-            name: "ShelfObjectsTests",
-            dependencies: ["ShelfObjects"]
+            name: "GameRoomObjectsTests",
+            dependencies: ["GameRoomObjects"]
         ),
     ]
 )

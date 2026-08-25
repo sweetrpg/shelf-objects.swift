@@ -1,7 +1,7 @@
 import XCTest
-@testable import ShelfObjects
+@testable import GameRoomObjects
 
-final class ShelfObjectsTests: XCTestCase {
+final class GameRoomObjectsTests: XCTestCase {
     func testScaffold() throws {
         // Placeholder test for scaffolding
     }
